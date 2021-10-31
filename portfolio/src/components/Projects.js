@@ -1,5 +1,5 @@
 import React from "react";
-import projectsList from "../components/Portfolio";
+import projectList from "./Portfolio";
 import { capitalizeFirstLetter } from "../utils/helpers";
 
 function Projects(props) {
@@ -8,7 +8,7 @@ function Projects(props) {
     <section>
       <div className="card">
         <img
-          src={process.env.PUBLIC_URL + projectList.image}
+          src={projectList.image}
           alt="project image"
         />
         <h2 data-testid="h2tag">
