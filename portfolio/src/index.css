@@ -14,7 +14,7 @@ body {
   margin: 0;
   font-family: Montserrat;
   background-color: var(--primary);
-
+  color: var(--text-color);
 }
 
 header {
@@ -22,6 +22,9 @@ header {
   width: 100%;
   display: block;
   position: fixed;
+  left: 0;
+  top: 0;
+  padding: 15px;
 }
 
 .navbar {
@@ -29,11 +32,14 @@ header {
   background-color: var(--tertiary);
   flex-wrap: wrap;
   text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
 }
 
 a {
   text-decoration: none;
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 footer {
@@ -44,4 +50,116 @@ footer {
   bottom: 0;
   padding: 25px;
   width: 100%;
+}
+
+.nav-item {
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  margin: 8px;
+  background-color: var(--quartiary);
+  color: var(--primary);
+  font-size: 19px;
+  transition: transform 2s;
+}
+
+.nav-item:hover {
+  transform: rotate(360deg);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.title-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.about {
+  margin: 20px;
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-card {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  padding: 50px;
+}
+
+.about-body {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-content {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: space-between;
+}
+
+footer a {
+  padding: 15px;
+}
+
+.project-card {
+  /* display: flex; */
+  justify-content: center;
+  height: 450px;
+  width: 325px;
+  align-items: center;
+  margin-left: 50px;
+  padding: 50px;
+}
+
+.card img {
+  width: 450px;
+  height: auto;
+  align-items: center;
+  /* max-width: 85%;
+  max-height: 85%; */
+}
+
+.card p {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit);
+}
+
+.label {
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.form-card {
+padding: 15px;
+margin: 25px;
+align-items: center;
+font-weight: bold;
+font-size: 18px;
+}
+
+.button {
+  background-color: var(--text-color);
+  color: var(--tertiary);
+  text-decoration: none;
+  border-radius: 5px;
 }

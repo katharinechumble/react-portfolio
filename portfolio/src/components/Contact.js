@@ -40,6 +40,7 @@ function ContactForm() {
 
   return (
     <section>
+        <div className="card form-card">
       <h1 date-testid="h1tag">Contact Me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
@@ -78,6 +79,7 @@ function ContactForm() {
           Submit
         </button>
       </form>
+      </div>
     </section>
   );
 }

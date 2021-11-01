@@ -24,8 +24,8 @@ function Header() {
     return (
         <div>
             <nav className="navbar">
-                <a className="navbar-item" href="https://github.com/katharinechumble">
-                    <span className="title-text">Katharine C Humble</span>
+                <a href="https://github.com/katharinechumble">
+                    <h1 className="title-text">Katharine C Humble</h1>
                 </a>
             </nav>
             <Navigation
