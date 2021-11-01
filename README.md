@@ -15,6 +15,6 @@ React.js, CSS, html
 An updated portfolio built with React.js to showcase front and back end abilities.
 
 ## Sample
-!(screenshot)['../../assets/imgs/screenshot.png']
+!(screenshot)[../../assets/imgs/screenshot.png]
 
-Live site ['https://katharinechumble.github.io/react-portfolio/']
+(Live site)[https://katharinechumble.github.io/react-portfolio/]
