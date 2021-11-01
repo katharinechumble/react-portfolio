@@ -16,3 +16,32 @@ body {
   background-color: var(--primary);
 
 }
+
+header {
+  background-color: var(--tertiary);
+  width: 100%;
+  display: block;
+  position: fixed;
+}
+
+.navbar {
+  display: flex;
+  background-color: var(--tertiary);
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color)
+}
+
+footer {
+  text-align: center;
+  background-color: var(--tertiary);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 25px;
+  width: 100%;
+}

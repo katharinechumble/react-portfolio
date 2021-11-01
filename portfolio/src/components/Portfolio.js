@@ -1,32 +1,34 @@
-import React, { useState } from 'react';
+import React, { Component } from "react";
 import Projects from "./Projects";
 
-const projectList = [
-    {
+export default class Portfolio extends Component {
+
+  render() {
+    const portfolioList = [
+      {
         id: 0,
         name: "Game Search",
-        image: '../assets/imgs/gamesearchapp.png',
-        live: 'https://katharinechumble.github.io/miniature-fiesta/',
-        github: 'https://github.com/katharinechumble/miniature-fiesta'
-
-    },
-    {
+        screenshot: "../assets/imgs/gamesearchapp.png",
+        live: "https://katharinechumble.github.io/miniature-fiesta/",
+        github: "https://github.com/katharinechumble/miniature-fiesta",
+      },
+      {
         id: 1,
         name: "LotR RPG",
-        image: '../assets/imgs/lotrrpg.png',
-        live: 'https://lotr-rpg.herokuapp.com/',
-        github: 'https://github.com/katharinechumble/LOTR-RPGII'
-    }
-];
+        screenshot: "../assets/imgs/lotrrpg.png",
+        live: "https://lotr-rpg.herokuapp.com/",
+        github: "https://github.com/katharinechumble/LOTR-RPGII",
+      },
+    ];
 
-function projectsList() {
-    return (
+
+      return (
         <div>
-            <h1 className="portfolioh">Portfolio</h1>
+          <h1 className="portfolio">Portfolio</h1>
 
-            <Projects projectList={projectList} />
+          <Projects portfolioList={portfolioList} />
         </div>
-    )
-}
+      );
+    }
+  }
 
-export default projectsList;
