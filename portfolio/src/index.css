@@ -60,6 +60,7 @@ footer {
   background-color: var(--quartiary);
   color: var(--primary);
   font-size: 19px;
+  border-radius: 5px;
   transition: transform 2s;
 }
 
