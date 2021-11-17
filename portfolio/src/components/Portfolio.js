@@ -19,6 +19,13 @@ export default class Portfolio extends Component {
         live: "https://lotr-rpg.herokuapp.com/",
         github: "https://github.com/katharinechumble/LOTR-RPGII",
       },
+      {
+        id: 2,
+        name: "Holiday Chaos Coordinator",
+        screenshot: "../assets/imgs/hccdemo.gif",
+        live: "https://holiday-chaos-coordinator.herokuapp.com/",
+        github: "https://github.com/katharinechumble/musical-telegram",
+      },
     ];
 
 
